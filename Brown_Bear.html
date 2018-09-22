@@ -52,16 +52,35 @@
 	</video>
   </div>
   <div id="slideshow">
-   <div>
-     <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg">
-   </div>
-   <div>
-     <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
-   </div>
-   <div>
-     Pretty cool eh? This slide is proof the content can be anything.
-   </div>
-</div>
+     <div>
+       <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg">
+     </div>
+     <div>
+       <img src="//farm6.static.flickr.com/5230/5638093881_a791e4f819_m.jpg">
+     </div>
+     <div>
+       Pretty cool eh? This slide is proof the content can be anything.
+     </div>
+      <div>
+       <img src="pictures/images(5).jpg" alt="picture">
+       </div>
+       <div>
+       <img src="pictures/images(6).jpg" alt="picture">
+       </div>
+       <div>
+       <img src="pictures/images(7).jpg" alt="picture">
+       </div>
+       <div>
+       <img src="pictures/images(9).jpg" alt="picture">
+       </div>
+       <div>
+       <img src="pictures/images(10).jpg" alt="picture">
+       </div>
+       <div>
+       <img src="pictures/images.jpg" alt="picture">
+       </div>
+  </div>
+
 <script>
   $("#slideshow > div:gt(0)").hide();
 
@@ -72,7 +91,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow');
+  }, 1000);
  </script>
-<p></p>
 </body>
 </html>
