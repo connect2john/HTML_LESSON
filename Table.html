@@ -2,19 +2,15 @@
 <html>
 <head>
   <title>Skills Development Centre</title>
+  <link rel="stylesheet" type="text/css" href="Table_style.css">
 </head>
-<body>
-<style>
-th, td {
-        text-align: center;
-		}
-</style>
-<div>
-  <table border="0"width="500" align="center" bgcolor="tan">
+<body class="body">
+<div id="caption1">
+  <table class="table1">
   <caption> Students Details using no Borders/ thead/tfoot tags</caption>
   <thead>
   <tr>
-  <td style="background:red" align="center" colspan="3"><b>Student Details Batch wise</b></td>
+  <td style="background:red" align="center" colspan="3"><b>Student Details Batch wise</b></td> 
   </tr>
   </thead>
   <tfoot>
@@ -52,8 +48,8 @@ th, td {
       
   </table>
 </div><hr>
-<div>
-  <table border="2"width="600" align="left"cellpadding="10"cellspacing="10"bgcolor="aquamarine">
+<div id="caption2">
+  <table class="table2">
   <caption> Students Details using Cellpadding and Cellspacing</caption>
        <tr>
         <th>Student Name</th>
@@ -83,11 +79,11 @@ th, td {
       </tr>
       
   </table>
-</div>
-<div>
-  <table border="4"width="700" align="right"cellpadding="15"cellspacing="15">
-  <caption> Students Details with Merging Cells using Rowspan/Colspan</caption>
-       <tr>
+</div><hr>
+<div id="caption3">
+ <table class="table3"> 
+ <caption> Students Details with Merging Cells using Rowspan/Colspan</caption>
+         <tr>
 	   <th style="background:orange">Month</th>
         <th style="background:red">Student Name</th>
         <th style="background:pink">Course taken</th>

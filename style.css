@@ -39,7 +39,7 @@ display: inline;}
 	h3 {
     background-color: yellow ;
     margin: 0px;
-    padding: 30px
+    padding: 30px;
 	}
 	p {color: blue;
 	background-color: orange ;
@@ -49,19 +49,15 @@ display: inline;}
 #slideshow { 
     margin: 50px auto; 
     position: relative; 
-    width: 240px; 
-    height: 240px; 
+    width: 300px; 
+    height: 200px; 
     padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    box-shadow: 0 0 30px rgba(0,0,0,0.4); 
 }
-
-#slideshow > div { 
+#slideshow >div { 
     position: absolute; 
     top: 10px; 
     left: 10px; 
     right: 10px; 
     bottom: 10px; 
-}
-.green {
-color: green;
 }
