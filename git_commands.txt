@@ -1,4 +1,4 @@
-the steps need to:
+the steps needed to commit the code:
 
 first type git status
 
