@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap website</title>
-    <link rel="stylesheet" type="text/css" href="../CSS/PNF_style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -16,40 +16,51 @@
 
 </head>
 <body>
+
 <div id="header">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top"><!--navbar start-->
+        <div class="container">
             <div class="navbar-header">
-        <p class="navbar-brand">Pammi Nanda Foundation</p>
-        <!--<a href=""class="navbar-brand">Pammi Nanda Foundation</a>-->
-    </div>
-    <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>-->
-    <!--<div class="collapse navbar-collapse" text-center id="collapsenavbar">-->
-        <ul class="nav navbar-nav">
-        <li>
-            <a href=""> SERVICES </a>
-        </li>
-        <li>
-            <a href=""> TEAM </a>
-        </li>
-        <li>
-            <a href=""> CONTACT US </a>
-        </li>
-        <li>
-            <a href=""> PHOTOGALLERY </a>
-        </li>
-        </ul>
-    </div>
-    </nav><br><br><br><br>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#john-bar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <p class="navbar-brand">Pammi Nanda Foundation</p>
+
+            </div>
+            <div class="collapse navbar-collapse" id="john-bar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href=""> SERVICES </a>
+                    </li>
+                    <li>
+                        <a href=""> TEAM </a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> CONTACT US </a>
+                    </li>
+                    <li>
+                        <a href=""> PHOTOGALLERY </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav><!--navbar end-->
+
+
 </div>
-<div id="body">
-  <div class="row">
-        <div class="placeholder text-center img-responsive">
-            <img src="images/pnf_logo.jpg" width="1170" height="480" alt="PNF logo">
+<div class="container-fluid"><!--Pami Nanda img-->
+
+    <div class="row">
+        <div class="text-center pammi-img">
+            <img src="../images/pnf_logo.jpg" alt="PNF logo" class="responsive">
         </div>
     </div>
+</div><!--Pami Nanda img-->
+
+<div id="body">
 
     <div class="container">
         <div class="row top-columns">
@@ -155,9 +166,6 @@
             </div>
         </div>
     </div>
-<div class="footer">
-
-</div>
 
 </body>
 </html>
