@@ -13,3 +13,17 @@ top-columns {
 .top-columns {
     margin-top: 30px;
 }
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+#slideshow >div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}

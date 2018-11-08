@@ -7,7 +7,6 @@
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
@@ -45,29 +44,59 @@
     </nav><br><br><br><br>
 </div>
 <div class="container">
-        <div class="row top-columns">
-            <div class="col-sm-6 left-column">
-                <h2>Contact US</h2><br>
-                <p>
-                    Address: 145 B, Sector 4 Defence Colony, Dehradun, Uttarakhand. INDIA.
-                </p>
-                <div class="CONTACT INFO">
-            <p>Call: +911352665172 / +919319703938<br><br>
-                For more information E-mail us:   <em>pnfdehradun@gmail.com</em></p><br><br>
+        <div class="row">
+        <div class="placeholder text-center img-responsive">
+            <img src="../images/pnf_logo.jpg" width="1170" height="480" alt="PNF logo">
         </div>
-                <form action="PNF.html">
-                    <input type="submit" value="Back"/>
-                </form>
-            </div>
-            <div class="col-md-6 right-column">
-                <img src="../images/pnf_logo.jpg" width="100%">
-            </div>
         </div>
+            </div>
 <div class="container">
 
         <div class="FB">
-         <a href="https://wwww.facebook.com/PammiNandaFoundation" target="_blank">Follow us on Facebook</a>
+         <a href="https://wwww.facebook.com/PammiNandaFoundation">Follow us on Facebook</a>
         </div>
+<div id="slideshow">
+     <div>
+       <img src="../images/pnf_logo.jpg" alt="PNF logo">
+       </div>
+       <div>
+       <img src="../images/picture1.jpg" alt="vision">
+       </div>
+       <div>
+      <img src="../images/pic1.jpg" alt="First Computer Training Center">
+       </div>
+       <div>
+       <img src="../images/pic2.jpg" alt="Dehradun Computer Training Center">
+       </div>
+       <div>
+       <img src="../images/pic3.jpg" alt="Bhondsi Computer Training Center">
+       </div>
+       <div>
+       <img src="../images/pic4.jpg" alt="Rewari Computer Training Center">
+       </div>
+       <img src="../images/pic5.jpg" alt="National Digital Literacy Mission">
+       </div>
+       <div>
+       <img src="../images/pic6.jpg" alt="FREE Eye Camps">
+       </div>
+       <div>
+       <img src="../images/pic7.jpg" alt="services">
+       </div>
+       <img src="../images/pic8.jpg" alt="services">
+       </div>
+  </div>
 
+<script>
+  $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+  }, 1000);
+ </script>
 </body>
 </html>
