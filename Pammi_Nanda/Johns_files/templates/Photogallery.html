@@ -25,7 +25,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <p class="navbar-brand">Pammi Nanda Foundation</p>
+
+                <a href="../templates/first_page.html" class="navbar-brand">Pammi Nanda Foundation</a>
 
             </div>
             <div class="collapse navbar-collapse" id="john-bar">
@@ -46,8 +47,8 @@
             </div>
         </div>
     </nav>
-
 </div>
+
 <!--<div class="container-fluid">
 
     <div class="row">
@@ -56,6 +57,7 @@
         </div>
     </div>
 </div><!--navbar ends-->
+<!---->
 
 <div class="container text-center">
 
@@ -64,51 +66,59 @@
     </div>
 </div>
 
-<div class="container center-img text-center">
-<div id="slideshow">
+<div class="slideshow-container">
 
-    <div>
-        <img src="../images/pnf_logo.jpg" alt="PNF logo">
-    </div>
+                <div class="mySlides fade">
+                    <img src="../images/pnf_logo.jpg" alt="PNF logo" class="img">
+                </div>
+                <div class="mySlides fade">
+                   <img src="../images/Picture1.jpg" alt="vision" class="img">
+                </div>
 
-    <div>
-       <img src="../images/Picture1.jpg" alt="vision">
-    </div>
+                <div class="mySlides fade">
+                  <img src="../images/pic1.jpg" alt="First Computer Training Center" class="img">
+                </div>
 
-    <div>
-      <img src="../images/pic1.jpg" alt="First Computer Training Center">
-    </div>
+                <div class="mySlides fade">
+                    <img src="../images/pic2.jpg" alt="Dehradun Computer Training Center" class="img">
+                </div>
 
-    <div>
-        <img src="../images/pic2.jpg" alt="Dehradun Computer Training Center">
-    </div>
+                <div class="mySlides fade">
+                   <img src="../images/pic3.jpg" alt="Bhondsi Computer Training Center" class="img">
+                </div>
 
-    <div>
-       <img src="../images/pic3.jpg" alt="Bhondsi Computer Training Center">
-    </div>
+                <div class="mySlides fade">
+                   <img src="../images/pic4.jpg" alt="Rewari Computer Training Center" class="img">
+                </div>
 
-    <div>
-       <img src="../images/pic4.jpg" alt="Rewari Computer Training Center">
-    </div>
+                <div class="mySlides fade">
+                    <img src="../images/pic5.jpg" alt="National Digital Literacy Mission" class="img">
+                </div>
 
-    <div>
-        <img src="../images/pic5.jpg" alt="National Digital Literacy Mission">
-    </div>
+                <div class="mySlides fade">
+                    <img src="../images/pic6.jpg" alt="FREE Eye Camps" class="img">
+                </div>
 
-    <div>
-        <img src="../images/pic6.jpg" alt="FREE Eye Camps">
-    </div>
-
-    <div>
-        <img src="../images/pic7.jpg" alt="services">
-    </div>
-    <div>
-        <img src="../images/pic8.jpg" alt="services">
-    </div>
-</div>
+                <div class="mySlides fade">
+                    <img src="../images/pic7.jpg" alt="services" class="img">
+                </div>
+                <div class="mySlides fade">
+                    <img src="../images/pic8.jpg" alt="services" class="img">
+                </div>
 </div>
 
-<script>
+
+<!--</div>-->
+
+<div class="container text-center">
+
+    <form action="first_page.html">
+        <input type="submit" value="Back"/>
+    </form>
+
+</div>
+
+<!--<script>
   $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {
@@ -119,6 +129,28 @@ setInterval(function() {
     .end()
     .appendTo('#slideshow');
   }, 3000);
- </script>
+ </script>-->
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    /*dots[slideIndex-1].className += " active";*/
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
 </body>
 </html>
