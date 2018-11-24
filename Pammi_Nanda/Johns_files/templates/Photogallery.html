@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap website</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/PNF_style.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div id="header"><!--navbar starts-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            <a href="../templates/first_page.html" class="navbar-brand">Pammi Nanda Foundation</a>
+    </div>
+            <div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#john-bar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+            <div class="collapse navbar-collapse" id="john-bar">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="services.html"> SERVICES </a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html"> ABOUT US </a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> CONTACT US </a>
+                    </li>
+                    <li>
+                        <a href="Photogallery.html"> PHOTOGALLERY </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</div><br><br><br>
+<!--<div class="container-fluid">
+
+    <div class="row">
+        <div class="text-center jernej">
+            <img src="../images/pnf_logo.jpg" alt="PNF logo" class="responsive">
+        </div>
+    </div>
+</div><!--navbar ends-->
+
+<div class="container center-img text-center">
+<div id="slideshow">
+
+    <div>
+        <img src="../images/pnf_logo.jpg" alt="PNF logo">
+    </div>
+
+    <div>
+       <img src="../images/Picture1.jpg" alt="vision">
+    </div>
+
+    <div>
+      <img src="../images/pic1.jpg" alt="First Computer Training Center">
+    </div>
+
+    <div>
+        <img src="../images/pic2.jpg" alt="Dehradun Computer Training Center">
+    </div>
+
+    <div>
+       <img src="../images/pic3.jpg" alt="Bhondsi Computer Training Center">
+    </div>
+
+    <div>
+       <img src="../images/pic4.jpg" alt="Rewari Computer Training Center">
+    </div>
+
+    <div>
+        <img src="../images/pic5.jpg" alt="National Digital Literacy Mission">
+    </div>
+
+    <div>
+        <img src="../images/pic6.jpg" alt="FREE Eye Camps">
+    </div>
+
+    <div>
+        <img src="../images/pic7.jpg" alt="services">
+    </div>
+    <div>
+        <img src="../images/pic8.jpg" alt="services">
+    </div>
+</div>
+</div>
+
+<script>
+  $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+  }, 4000);
+ </script><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+        <div class="row top-columns">
+            <div class="col-sm-6 left-column">
+                <h5><form action="first_page.html">
+                    <input type="submit" value="Back"/>
+                </form></h5>
+            </div>
+
+            <div class="col-md-6 right-column">
+                 <h5><a href="https://wwww.facebook.com/PammiNandaFoundation" target="_blank">Follow us on Facebook</a></h5>
+
+            </div>
+        </div>
+<div>
+
+        </div>
+</div>
+</body>
+</html>
