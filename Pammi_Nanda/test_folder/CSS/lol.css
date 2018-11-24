@@ -1,0 +1,42 @@
+/*
+.left-column {
+    max-height: 350px;
+}
+
+.right-column {
+    max-height: auto;
+}
+*/
+.top-columns {
+    max-height: auto;
+}
+
+
+#body {
+    background-color: lavenderblush;
+}
+
+.hr {
+    border: 1px solid grey;
+    width: auto;
+    height: 2px;
+}
+
+.responsive {
+    width: 80%;
+    height: auto;
+}
+
+.test {
+    color: red;
+}
+.logo-img {
+    width: 80%;
+    height: auto;
+    margin-top: 60px;
+}
+
+.jernej {
+        background-color: lavenderblush;
+
+}

@@ -1,0 +1,21 @@
+/*.placeholder {
+    height: 480px;
+    width: auto;
+}*/
+#body {
+    background-color: lavenderblush;
+}
+
+.left-column {
+    max-height: 350px;
+}
+
+.right-column {
+    max-height: 350px;
+}
+
+.hr {
+    border: 1px solid grey;
+    width: auto;
+    height: 1px;
+}
