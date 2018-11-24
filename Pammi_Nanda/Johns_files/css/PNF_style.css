@@ -1,23 +1,50 @@
+/*
+.left-column {
+    max-height: 350px;
+}
+
+.right-column {
+    max-height: auto;
+}
+*/
+.top-columns {
+    max-height: auto;
+}
+
 
 #body {
-background-color: lavenderblush;
+    background-color: lavenderblush;
 }
+
 .hr {
     border: 1px solid grey;
     width: auto;
-    height: 1px;
+    height: 2px;
 }
-top-columns {
-    max-height: auto;
+
+.responsive {
+    width: 80%;
+    height: auto;
+    margin-top: 58px;
 }
-.top-columns {
-    margin-top: 30px;
+
+.pammi-img {
+    background-color: lavenderblush;
+}
+.center-img {
+
+    width: 80%;
+    height: auto;
+    margin-top: 10px;
+
 }
 #slideshow {
     margin: 50px auto;
     position: relative;
-    width: auto;
+    width: 80%;
     height: auto;
+    padding: 10px;
+    /*box-shadow: 0 0 30px rgba(0,0,0,0.4);*/
 }
 
 #slideshow >div {

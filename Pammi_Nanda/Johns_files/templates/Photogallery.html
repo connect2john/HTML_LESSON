@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Photogallery</title>
+    <title>Bootstrap website</title>
     <link rel="stylesheet" type="text/css" href="../CSS/PNF_style.css">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -19,15 +19,15 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-
+            <a href="../templates/first_page.html" class="navbar-brand">Pammi Nanda Foundation</a>
+    </div>
+            <div>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#john-bar">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="../index.html"><p class="navbar-brand">Pammi Nanda Foundation</p></a>
-
-            </div>
+                </div>
             <div class="collapse navbar-collapse" id="john-bar">
                 <ul class="nav navbar-nav">
                     <li>
@@ -47,69 +47,61 @@
         </div>
     </nav>
 
-</div>
+</div><br><br><br>
+<!--<div class="container-fluid">
 
+    <div class="row">
+        <div class="text-center jernej">
+            <img src="../images/pnf_logo.jpg" alt="PNF logo" class="responsive">
+        </div>
+    </div>
+</div><!--navbar ends-->
 
-<div class="container text-center fb-link">
+<div class="container center-img text-center">
+<div id="slideshow">
 
-    <div class="FB">
-        <a href="https://wwww.facebook.com/PammiNandaFoundation">Follow us on Facebook</a>
+    <div>
+        <img src="../images/pnf_logo.jpg" alt="PNF logo">
+    </div>
+
+    <div>
+       <img src="../images/Picture1.jpg" alt="vision">
+    </div>
+
+    <div>
+      <img src="../images/pic1.jpg" alt="First Computer Training Center">
+    </div>
+
+    <div>
+        <img src="../images/pic2.jpg" alt="Dehradun Computer Training Center">
+    </div>
+
+    <div>
+       <img src="../images/pic3.jpg" alt="Bhondsi Computer Training Center">
+    </div>
+
+    <div>
+       <img src="../images/pic4.jpg" alt="Rewari Computer Training Center">
+    </div>
+
+    <div>
+        <img src="../images/pic5.jpg" alt="National Digital Literacy Mission">
+    </div>
+
+    <div>
+        <img src="../images/pic6.jpg" alt="FREE Eye Camps">
+    </div>
+
+    <div>
+        <img src="../images/pic7.jpg" alt="services">
+    </div>
+    <div>
+        <img src="../images/pic8.jpg" alt="services">
     </div>
 </div>
-
-<div class="slideshow-container">
-
-                <div class="mySlides fade">
-                    <img src="../images/pnf_logo.jpg" alt="PNF logo" class="img">
-                </div>
-                <div class="mySlides fade">
-                   <img src="../images/Picture1.jpg" alt="vision" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                  <img src="../images/pic1.jpg" alt="First Computer Training Center" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="../images/pic2.jpg" alt="Dehradun Computer Training Center" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                   <img src="../images/pic3.jpg" alt="Bhondsi Computer Training Center" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                   <img src="../images/pic4.jpg" alt="Rewari Computer Training Center" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="../images/pic5.jpg" alt="National Digital Literacy Mission" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="../images/pic6.jpg" alt="FREE Eye Camps" class="img">
-                </div>
-
-                <div class="mySlides fade">
-                    <img src="../images/pic7.jpg" alt="services" class="img">
-                </div>
-                <div class="mySlides fade">
-                    <img src="../images/pic8.jpg" alt="services" class="img">
-                </div>
 </div>
 
-
-<!--</div>-->
-
-<div class="container text-center">
-
-    <form action="../index.html">
-        <input type="submit" value="Back"/>
-    </form>
-
-</div>
-
-<!--<script>
+<script>
   $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() {
@@ -119,29 +111,24 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow');
-  }, 3000);
- </script>-->
+  }, 4000);
+ </script><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="container">
+        <div class="row top-columns">
+            <div class="col-sm-6 left-column">
+                <h5><form action="first_page.html">
+                    <input type="submit" value="Back"/>
+                </form></h5>
+            </div>
 
-<script>
-var slideIndex = 0;
-showSlides();
+            <div class="col-md-6 right-column">
+                 <h5><a href="https://wwww.facebook.com/PammiNandaFoundation" target="_blank">Follow us on Facebook</a></h5>
 
-function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";
-    }
-    slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";
-    /*dots[slideIndex-1].className += " active";*/
-    setTimeout(showSlides, 5000); // Change image every 2 seconds
-}
-</script>
+            </div>
+        </div>
+<div>
+
+        </div>
+</div>
 </body>
 </html>
