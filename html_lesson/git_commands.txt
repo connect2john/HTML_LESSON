@@ -1,0 +1,11 @@
+the steps needed to commit the code:
+
+first type git status
+
+then type git add <file name>
+
+then git commit -m "commit message"
+
+then git push origin master
+
+
