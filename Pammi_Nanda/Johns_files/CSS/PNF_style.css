@@ -93,9 +93,7 @@ img {vertical-align: middle;}
 }
 
 
-/*.jernej2 {
-    margin-top: 500px;
-}
+/*
 #slideshow {
     margin: 50px auto;
     position: relative;
@@ -120,11 +118,6 @@ img {vertical-align: middle;}
     margin-top: 58px;
 }
 
-/*
-.back-btn {
-    margin-buttom: auto;
-}*/
-
 .img-pammi {
     margin-top: 65px;
 }
@@ -139,4 +132,8 @@ img {vertical-align: middle;}
 
 .addr {
     margin-top: 60px;
+}
+
+.jj {
+    margin-top: 700px;
 }
