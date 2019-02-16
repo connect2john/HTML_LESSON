@@ -48,9 +48,9 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 1s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
@@ -93,19 +93,19 @@ img {vertical-align: middle;}
 }
 
 
-/*
 #slideshow {
-    margin: 50px auto;
+    margin: 0px auto;
     position: relative;
-    width: 80%;
+    width: 100%;
     height: auto;
     padding: 10px;
-    !*box-shadow: 0 0 30px rgba(0,0,0,0.4);*!
+    /*box-shadow: 0 0 30px rgba(0,0,0,0.4);*/
 }
-*/
 
 #slideshow >div {
     position: absolute;
+    margin: auto;
+    text-align: center;
     top: 10px;
     left: 10px;
     right: 10px;
@@ -132,8 +132,4 @@ img {vertical-align: middle;}
 
 .addr {
     margin-top: 60px;
-}
-
-.jj {
-    margin-top: 700px;
 }
